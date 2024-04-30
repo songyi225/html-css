@@ -1,1 +1,23 @@
 /* CSS 선택자(Selector) */
+
+/* 전체 선택자 (유니버셜 셀렉터) */
+* {
+  color: red;
+}
+
+/* p 태그만 골라서 색깔 변경 */
+p {
+  color: blue;
+}
+
+.note {
+  color: green;
+}
+
+#euid {
+  color: purple;
+}
+
+a[href] {
+  color: orange;
+}
