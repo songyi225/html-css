@@ -1,1 +1,38 @@
-<!-- HTML 코드를 작성해 주세요. -->
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>테이블 관련 요소</title>
+</head>
+<body>
+  <table>
+    <caption>
+      중간고사 성적
+    </caption>
+    <thead> <!-- 제목 행 -->
+      <tr> <!-- 첫번째 행 -->
+        <th>&nbsp;</th>
+        <th scope="col">국어</th> <!-- 제목 셀 -->
+        <td>80</td> <!-- 내용 셀 -->
+      </tr>
+    </thead>
+    <tfoot> <!-- 테이블의 푸터 영역 -->
+      <tr> <!-- 두번째 행 -->
+        <th scope="row">테이블의 바닥글</th> <!-- 제목 셀 -->
+        <td>테이블의 바닥글</td> <!-- 내용 셀 -->
+      </tr>
+    </tfoot>
+    <tbody> <!-- 본문 행으로 묶어놓음 -->
+      <tr> <!-- 세번째 행 -->
+        <th scope="row">제목셀</th> <!-- 제목 셀 -->
+        <td>내용셀</td> <!-- 내용 셀 -->
+      </tr>
+      <tr> <!-- 네번째 행 -->
+        <th scope="row">제목셀</th> <!-- 제목 셀 -->
+        <td>내용셀</td> <!-- 내용 셀 -->
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
